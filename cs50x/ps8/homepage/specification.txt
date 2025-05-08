@@ -1,0 +1,26 @@
+HTML tags:
+<meta>
+<link>
+<header>
+<nav>
+<ul>
+<li>
+<a>
+<div>
+<h1>
+<p>
+
+CSS properties:
+background-color
+color
+border
+border-radius
+width
+height
+background-image
+
+Bootstrap:
+To create the header of the page and pretty much everywhere
+
+Javascript:
+To hide one collapse, where the other is open

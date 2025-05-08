@@ -1,0 +1,4 @@
+name,servings,ingredients
+Classic American Pancakes,3,"[{'name': 'Flour', 'quantity': {'value': '1', 'unit': 'cup'}}, {'name': 'Sugar', 'quantity': {'value': '2', 'unit': 'tsp'}}, {'name': 'Salt', 'quantity': {'value': '0.5', 'unit': 'tsp'}}, {'name': 'Milk', 'quantity': {'value': '0.75', 'unit': 'cup'}}, {'name': 'Egg', 'quantity': {'value': '1', 'unit': ''}}]"
+Grilled Cheese Sandwitch,3,"[{'name': 'Bread', 'quantity': {'value': '2', 'unit': ''}}, {'name': 'Cheddar Cheese', 'quantity': {'value': '2', 'unit': 'slices'}}, {'name': 'Buter', 'quantity': {'value': '2', 'unit': 'tsp'}}]"
+Macaroni And Cheese,3,"[{'name': 'Elbow Macaroni', 'quantity': {'value': '2', 'unit': 'cups'}}, {'name': 'Cheddar Cheese', 'quantity': {'value': '2', 'unit': 'cups'}}, {'name': 'Milk', 'quantity': {'value': '1', 'unit': 'cup'}}, {'name': 'Butter', 'quantity': {'value': '2', 'unit': 'tsp'}}, {'name': 'Salt', 'quantity': {'value': '0', 'unit': 'tsp'}}]"

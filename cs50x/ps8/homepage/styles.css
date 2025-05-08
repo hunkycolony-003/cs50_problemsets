@@ -1,0 +1,40 @@
+/*body {
+    background-image:url("https://img.freepik.com/free-vector/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg")
+}
+
+.gradient {
+    background-image:linear-gradient(to top right, RGBA(0, 204, 102, var(--bs-bg-opacity, 0.7)), white);
+    background-size:cover;
+}*/
+
+.text-bg-grey {
+    background-color:rgba(150, 150, 150);
+    color:white;
+    border: 2px grey black;
+    border-radius: 5px;
+}
+
+code {
+    color: rgb(165, 28, 48);
+}
+
+.text-bg-maroon{
+    background-color: rgb(190, 70, 48);
+}
+
+.text-bg-maroon .nav-link{
+    color:rgb(240, 240, 240) !important;
+}
+
+#minimised {
+    width:100px;
+    height:auto;
+}
+
+#bsri {
+    background-image: linear-gradient(to top right, RGB(255, 183, 72), white)
+}
+
+#ju {
+    background-image: linear-gradient(to top right, RGB(184, 9, 36), white)
+}

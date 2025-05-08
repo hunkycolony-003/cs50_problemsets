@@ -1,0 +1,4 @@
+name,servings,ingredients
+Maggie,4,"[{'name': 'Maggie', 'quantity': {'value': '2', 'unit': ''}}, {'name': 'Water', 'quantity': {'value': '2', 'unit': 'Cup'}}, {'name': 'Maggie Masala', 'quantity': {'value': '2', 'unit': 'Packet'}}]"
+Omlette,3,"[{'name': 'Egg', 'quantity': {'value': '3', 'unit': ''}}, {'name': 'Oil', 'quantity': {'value': '2', 'unit': 'tsp'}}, {'name': 'Onion', 'quantity': {'value': '1', 'unit': ''}}, {'name': 'Tomato', 'quantity': {'value': '1', 'unit': ''}}]"
+Bread Toast,2,"[{'name': 'Bread', 'quantity': {'value': '2', 'unit': ''}}, {'name': 'Butter', 'quantity': {'value': '3', 'unit': 'tsp'}}]"

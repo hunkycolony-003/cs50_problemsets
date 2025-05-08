@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Reset
+{% endblock %}
+
+{% block main %}
+
+    <form action="/reset" method="POST">
+        <input autocomplete="off" autofocus name="previous" placeholder="Enter Old Password" type="password">
+        <input autocomplete="off" autofocus name="new" placeholder="Enter New Password" type="password">
+        <input autocomplete="off" autofocus name="new_confirm" placeholder="Confirm New Password" type="password">
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+{% endblock %}

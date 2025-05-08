@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charse="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>academics</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm justify-content-center text-bg-maroon">
+                <a class="navbar-brand" href="cs50_experience.html">
+                    <img src="cs50Logo.png" alt="cs50 Logo" style="width:50px;">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="academics.html"> Academics </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html"> Research </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">contact</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/soumyajit-ghosh-000496pfn6/">Linkedin</a></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/@soumyajitghosh3902">Youtube</a></li>
+                            <li><a class="dropdown-item" href="https://x.com/Soumyajit_003">Twitter</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <phead class="container text-center mt-3 p-2">
+            <h2> Academics </h2>
+        </phead>
+
+        <div id="bsri" class="container-fluid p-3 bg-danger">
+            <a href="#bsri-details" class="btn" data-bs-toggle="collapse" onclick="toggleBanner('bsri_details')"> BSRI </a>
+        </div>
+        <div id="bsri-details" class="collapse show row  p-5 banner">
+            <div class="col-md-8">
+                <h4> Bishnupur Sir Romesh Institution</h4>
+                <p> I have dtudied here for my secondary and higher secondary education.</p>
+                <P> The time spent amidst of memories, good friends and activities </P>
+            </div>
+            <div class="col-md-4">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipMD2I1IEw813lEIKUXNiM6OoWevD2MEZlj59d97=s1360-w1360-h1020" class="rounded img-fluid minimised">
+            </div>
+        </div>
+
+        <div id="ju" class="container-fluid p-3 bg-success">
+            <a href="#ju_details" class="btn" data-bs-toggle="collapse" onclick="toggleBanner('ju_details')"> Jadavpur University</a>
+        </div>
+        <div id="ju_details" class="collapse row p-5 banner">
+            <div class="col-md-8">
+                <h4> Jadavpur University </h4>
+                <p> Fresher ar Jadapur University currently. Looking forward to many many thrilling experiences that awaits in this institution.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="JU.png" class="img-fluid minimised rounded">
+        </div>
+
+        <script>
+            function toggleBanner(id) {
+                // Get all banner details
+                const banners = document.querySelectorAll('.collapse');
+
+                // Loop through each banner
+                banners.forEach(banner => {
+                    // If the banner is not the one being clicked
+                    if (banner.id !== id) {
+                        // Hide it if it's currently shown
+                        if (banner.classList.contains('show')) {
+                            banner.classList.remove('show');
+                            banner.classList.add('collapse'); // Optional: Reset classes if needed
+                        }
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>

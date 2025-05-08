@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <h1> Cart </h1>
+
+    Back to <a href="/"> Store</a>
+    {% if not cart%}
+        <h2>Your Cart is Empty</h2>
+    {% else %}
+        {% for book in cart %}
+            <li>{{ book.title }}</li>
+        {% endfor %}
+    {% endif %}
+
+{% endblock %}

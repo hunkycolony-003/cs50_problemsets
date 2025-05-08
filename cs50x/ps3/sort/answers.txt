@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: reversed50000 took a lot of time compared to sorted50000. Seemingly because of different order(n^2) and omega(logn)
+
+sort2 uses: merge sort
+
+How do you know?: Both the sorted50000 and reversed50000 took almost time of equal order, both are much lesser than that of sort1 reversed and slightly more than sort1 sorted. So must be of theta(nlogn)
+
+sort3 uses: selection sort
+
+How do you know?: Both sorrted and reversed took almost equal time, and much more that that of previous (logn) or (nlogn) must be of theta(n^2)

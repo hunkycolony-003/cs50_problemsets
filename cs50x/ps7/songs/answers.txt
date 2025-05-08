@@ -1,0 +1,3 @@
+I would calculate the aura by first calculating AVG(danceability), AVG(valence), AVG(energy) and then ultimately compare those values against the appropriate values of these factor, predetermined for each genre. And then select the two genres which most closely resembles the values calculaeted from the user.
+
+Suppose a listener only listens to 'high-energy' and 'low-energy' songs. So their auras should contain the genres suitable for those values, including other two factors. But practically, the above method will calculate the AVG(energy) to be around 'mid'. Which not at all resembles the type of songs that the listener lstens to. 
